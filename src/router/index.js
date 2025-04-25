@@ -3,11 +3,10 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Platform from '../views/Platform.vue'
 import Services from '../views/Services.vue'
-import TryUs from '../views/TryUs.vue'
-import Contact from '../views/Contact.vue'
 import Whitepapers from '../views/Whitepapers.vue'
 import Blog from '../views/Blog.vue'
-import ApiDocs from '../views/ApiDocs.vue'
+import TryUs from '../views/TryUs.vue'
+import Contact from '../views/Contact.vue'
 
 const routes = [
   {
@@ -31,16 +30,6 @@ const routes = [
     component: Services
   },
   {
-    path: '/try-us',
-    name: 'TryUs',
-    component: TryUs
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
-  },
-  {
     path: '/whitepapers',
     name: 'Whitepapers',
     component: Whitepapers
@@ -51,9 +40,14 @@ const routes = [
     component: Blog
   },
   {
-    path: '/api-docs',
-    name: 'ApiDocs',
-    component: ApiDocs
+    path: '/try-us',
+    name: 'TryUs',
+    component: TryUs
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   }
 ]
 
